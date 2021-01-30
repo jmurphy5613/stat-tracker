@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "sm";
+  src: url("fonts/monumentextended-ultrabold-webfont.woff2"), format("woff2");
+  src: url("fonts/monumentextended-ultrabold-webfont.woff") format("woff");
+}
+
+@font-face{
+  font-family: "titles";
+  src: url("fonts/monumentextended-regular-webfont.woff2"), format("woff2");
+  src: url("fonts/monumentextended-regular-webfont.woff") format("woff");
+}
+
+.center {
+  background-image: url("assests/CS-GO-wallpaper-HD-Fnatic-champion_hu4b6056254d598eda2a101c6c6ee9c68a_592457_1920x1080_resize_q75_lanczos\ \(6\).jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+h1 {
+  font-family: sm;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7%;
+  font-size: 4rem;
+}
+
+.valorant
+{
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.valorant h3{
+  font-family: titles;
+  color: whitesmoke;
+  text-decoration: none
+}
