@@ -10,14 +10,14 @@
   src: url("fonts/monumentextended-ultrabold-webfont.woff") format("woff");
 }
 
-@font-face{
+@font-face {
   font-family: "titles";
   src: url("fonts/monumentextended-regular-webfont.woff2"), format("woff2");
   src: url("fonts/monumentextended-regular-webfont.woff") format("woff");
 }
 
 .center {
-  background-image: url("assets/CS-GO-wallpaper-HD-Fnatic-champion_hu4b6056254d598eda2a101c6c6ee9c68a_592457_1920x1080_resize_q75_lanczos\ \(2\).jpg");
+  background-image: url("assets/CS-GO-wallpaper-HD-Fnatic-champion_hu4b6056254d598eda2a101c6c6ee9c68a_592457_1920x1080_resize_q75_lanczos\ \(7\)\ \(1\).jpg");
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -35,14 +35,20 @@ h1 {
   font-size: 4rem;
 }
 
-.valorant
-{
+.valorant {
   text-align: center;
   padding-top: 3rem;
 }
 
-.valorant h3{
+.valorant a {
   font-family: titles;
   color: whitesmoke;
-  text-decoration: none
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.valorantCenter{
+  background-color: rgb(15, 23, 42);
+  height: 100vh;
+  width: 100vw;
 }
