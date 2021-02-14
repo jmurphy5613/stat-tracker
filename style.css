@@ -35,6 +35,7 @@ h1 {
   align-items: center;
   padding-top: 7%;
   font-size: 4rem;
+  position: relative;
 }
 
 .valorant {
@@ -53,6 +54,10 @@ h1 {
   background-color: rgb(15, 23, 42);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-position: 50% 50%;
 }
 
 h2{
@@ -61,6 +66,7 @@ h2{
   color: white;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .valorantTitle{
@@ -72,4 +78,5 @@ h2{
   color: rgb(195, 46, 46);
   padding-top: 1rem;
   font-size: 2rem;
+  position: relative;
 }
