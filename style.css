@@ -38,17 +38,29 @@ h1 {
   position: relative;
 }
 
-.valorant {
+.games {
   text-align: center;
   padding-top: 3rem;
 }
 
-.valorant a {
+.games .item {
   font-family: titles;
   color: whitesmoke;
   text-decoration: none;
-  box-shadow: none;
+  text-align: center;
+  padding-top: 3rem;
+  position: relative;
 }
+
+.games li{
+  transition: 0.2s ease-in-out;
+}
+
+.games li:hover{
+  transform:scale(1.02);
+}
+
+
 
 #particles-js{
   background-color: rgb(15, 23, 42);
