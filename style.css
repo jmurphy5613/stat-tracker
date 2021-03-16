@@ -16,8 +16,6 @@
   src: url("fonts/monumentextended-regular-webfont.woff") format("woff");
 }
 
-
-
 .center {
   background-image: url("assets/CS-GO-wallpaper-HD-Fnatic-champion_hu4b6056254d598eda2a101c6c6ee9c68a_592457_1920x1080_resize_q75_lanczos\ \(7\)\ \(1\).jpg");
   height: 100vh;
@@ -52,17 +50,15 @@ h1 {
   position: relative;
 }
 
-.games li{
+.games .test {
   transition: 0.2s ease-in-out;
 }
 
-.games li:hover{
-  transform:scale(1.02);
+.games .test:hover {
+  transform: scale(1.02);
 }
 
-
-
-#particles-js{
+#particles-js {
   background-color: rgb(15, 23, 42);
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,8 +68,8 @@ h1 {
   background-position: 50% 50%;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   color: white;
   justify-content: center;
@@ -81,8 +77,8 @@ h2{
   position: relative;
 }
 
-.valorantTitle{
-  font-family: 'Montserrat', sans-serif;
+.valorantTitle {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   color: white;
   justify-content: center;
@@ -91,4 +87,26 @@ h2{
   padding-top: 1rem;
   font-size: 2rem;
   position: relative;
+}
+
+section{
+  justify-content: center;
+  display: flex;
+}
+
+input{
+  position: relative;
+  border:none;
+  appearance: none;
+  padding: 10px;
+  background-color: rgb(173, 167, 167);
+  border-radius: 3px;
+  width: 300px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+#getInfo{
+  padding-top: 0.7rem;
 }
